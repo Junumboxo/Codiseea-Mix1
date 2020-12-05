@@ -27,7 +27,6 @@ function convert($roman)
 		default:
 			return -1;
 			break;
-
 	}
 }
 
@@ -69,7 +68,6 @@ for($i=0;$i<99;$i++){
 	$y=stristr($fragment[$i], " ");
 	$key[$x] = trim($y);
 };
-
 
 ksort($key);
 
